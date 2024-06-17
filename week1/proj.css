@@ -1,0 +1,96 @@
+html,body{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;}
+body{
+    background-color: blanchedalmond;
+}
+
+.preptime{
+    border: 0px solid rgba(221, 160, 221, 0.3);
+    border-radius: 15px;
+    
+    
+    width: 700px;
+    background-color:rgba(221, 160, 221, 0.1);
+    padding: 10px;
+    
+}
+.dotlist1{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.image1{
+    border-left:auto;
+    border-right:auto;
+    border-radius: 15px;
+}
+
+.fullall{
+    background-color: white;
+    border: 1px #ccc solid;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.horizontalline{
+    width: 700px;
+    height:1px;
+    background-color: silver;
+}
+
+
+.horizontallines{
+    width: 200px;
+    height:1px;
+    background-color: silver;
+}
+.h2{
+    color: darkred;
+}
+.h3{
+    color: purple;
+}
+.item{
+    font-family: Outfit;
+    width: 200px;
+    height: 50px;
+    background: white;
+    color:black;
+    margin: 10px;
+
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-around;
+}
+.flex2{
+    display: flex;
+    justify-content: space-around;
+}
+.flex3{
+    display: flex;
+    justify-content: space-around;
+}
+.flex4{
+    display: flex;
+    justify-content: space-around;
+}
+ol.bold li::marker{
+    font-weight: bold;
+    color: darkred;
+
+}
+ul.purple li::marker{
+    color: purple;
+}
+ul.red li::marker{
+    color: darkred;
+}
